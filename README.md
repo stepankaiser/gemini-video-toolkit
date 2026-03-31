@@ -4,6 +4,8 @@ Video preprocessing pipeline + Gemini vision model integration. Upload a video, 
 
 Built for experimenting with how video quality, speed, and frame rate affect Gemini's analysis quality and token usage.
 
+![Dashboard](screenshot.png)
+
 ## What it does
 
 1. **Video preprocessing** — FFmpeg pipeline with configurable resolution, speed, FPS, bitrate, and duration cutting
