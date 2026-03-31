@@ -1,0 +1,12 @@
+{
+  "apiKey": "YOUR_GEMINI_API_KEY",
+  "model": "gemini-3-flash-preview",
+  "speedMultiplier": 10,
+  "targetResolution": "480p",
+  "targetBitrate": "Low",
+  "targetFps": 15,
+  "cutDurationSeconds": 0,
+  "includeReasoning": true,
+  "useSmartSpeed": true,
+  "prompt": "Analyze this video. Describe what you see in detail. Output JSON with keys: \"summary\" (text description), \"objects\" (array of detected objects), \"confidence\" (0.0-1.0)."
+}
